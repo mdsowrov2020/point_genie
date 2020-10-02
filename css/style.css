@@ -214,14 +214,14 @@ a {
   z-index: 2;
   top: 20%;
   margin: auto;
-  left: 43%;
+  left: 169px;
 }
 .first_child {
-  left: 45% !important;
+  left: 177px !important;
   top: 21% !important;
 }
 .sub_img.last_child {
-  left: 44% !important;
+  left: 175px !important;
   top: 20% !important;
 }
 .sub_img img {
