@@ -202,9 +202,9 @@ a {
   height: 80px;
   width: 85px;
   text-align: center;
+  position: relative;
 }
 .feature_img img {
-  position: relative;
   height: 100%;
   width: 100%;
 }
@@ -212,18 +212,22 @@ a {
 .sub_img {
   position: absolute;
   z-index: 2;
-  top: 20%;
+  height: 60%;
+  width: 60%;
+  top: 55%;
+  transform: translate(-50%, -50%);
   margin: auto;
-  left: 169px;
+  left: 50%;
+  /* left: 169px; */
 }
-.first_child {
+/* .first_child {
   left: 177px !important;
   top: 21% !important;
-}
-.sub_img.last_child {
+} */
+/* .sub_img.last_child {
   left: 175px !important;
   top: 20% !important;
-}
+} */
 .sub_img img {
   height: 80%;
   width: 80%;
@@ -325,9 +329,9 @@ a {
   height: 100px;
   width: 106px;
   text-align: center;
+  position: relative;
 }
 .choose_img img {
-  position: relative;
   height: 100%;
   width: 100%;
 }
@@ -335,9 +339,10 @@ a {
 .choose_sub_img {
   position: absolute;
   z-index: 2;
-  top: 25%;
+  top: 50%;
   margin: auto;
-  left: 170px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .choose_sub_img img {
   height: 80%;
@@ -356,14 +361,14 @@ a {
   text-align: center;
 }
 
-.choose_sub_last {
+/* .choose_sub_last {
   left: 168px !important;
   top: 24% !important;
 }
 .choose_sub_second {
   left: 175px !important;
   top: 24% !important;
-}
+} */
 /* ======================= subs part start ==================== */
 .subscribe_section {
   margin-top: 100px;
