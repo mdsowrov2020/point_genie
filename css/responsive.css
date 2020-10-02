@@ -1,0 +1,108 @@
+@media (max-width: 575px) {
+  p {
+    font-size: 12px !important;
+  }
+  .custom_nav {
+    background-color: #2b56f5;
+    padding: 0px;
+  }
+  #mynav ul {
+    text-align: center;
+  }
+  #mynav ul li {
+    padding: 25px 0px;
+  }
+  #mynav ul li .sign_up_btn {
+    border: none !important;
+  }
+  .vertical_img_main {
+    width: 100% !important;
+    overflow: hidden;
+  }
+  .banner {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #2b56f5;
+    overflow-x: hidden;
+  }
+  /* .banner_left {
+    text-align: center;
+  } */
+  .banner_content {
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .vertical_title {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    position: relative;
+  }
+  .border_parent {
+    height: 172px;
+    width: 210px;
+    margin: auto;
+    position: relative;
+  }
+  .banner_left_content h2 {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  .banner_left_content p {
+    font-size: 11px;
+    color: #fff;
+    padding-right: 95px;
+  }
+  .all_btn a {
+    display: inline-block;
+    height: 34px;
+    width: 130px;
+    line-height: 34px;
+    font-size: 11px;
+    color: #2b56f5;
+    text-align: center;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  .prize_btn a {
+    color: #fff !important;
+  }
+  .price_card_body:hover .prize_btn a {
+    background-color: #fff !important;
+    color: #2b56f5 !important;
+  }
+  .how_we_left p {
+    font-size: 14px;
+    color: #535353;
+    text-align: justify !important;
+    padding: 0px 10px;
+  }
+  .all_header h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #262626;
+    position: relative;
+  }
+  .subs_btns {
+    position: absolute;
+    right: 0;
+    height: 45px;
+    top: 0;
+    width: 73px;
+    color: #fff;
+    border-radius: 0px 4px 4px 0px;
+    outline: 0px !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: #2b56f5 !important;
+    text-align: center;
+    font-size: 11px;
+  }
+}
