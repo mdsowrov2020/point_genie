@@ -60,6 +60,9 @@
     color: #fff;
     padding-right: 95px;
   }
+  .banner_right_content {
+    margin-top: 35px;
+  }
   .all_btn a {
     display: inline-block;
     height: 34px;
