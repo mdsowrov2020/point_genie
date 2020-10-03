@@ -9,6 +9,7 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
 #fullpage {
   height: 100vh;
   overflow: hidden;
@@ -550,14 +551,17 @@ a {
 
 .price_img {
   text-align: center;
+  height: 85px;
+  width: 85px;
+  margin: auto;
 }
 
-.price_img h2 {
-  font-size: 55px;
-  color: #2b56f5;
+.price_img img {
+  height: 100%;
+  width: 100%;
 }
 
-.prize_active_card .price_img h2 {
+.prize_active_card .price_img img {
   color: #fff !important;
 }
 
