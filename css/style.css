@@ -453,9 +453,9 @@ a {
   height: 66px;
   width: 100%;
   border-radius: 5px;
-  -webkit-box-shadow: 2px 0px 17px -8px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 2px 0px 17px -8px rgba(0, 0, 0, 0.75);
-  box-shadow: 2px 0px 17px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 6px 30px #00000029;
+  -moz-box-shadow: 0px 6px 30px #00000029;
+  box-shadow: 0px 6px 30px #00000029;
   background-color: #fff;
 }
 
@@ -653,19 +653,22 @@ a {
 .conatct_input {
   box-shadow: none !important;
   outline: 0px !important;
-  /* border: 1px solid #aaaaaa; */
+  /* border: 0.25px solid #aaaaaa; */
   height: 71px !important;
   line-height: 71px;
   font-size: 16px !important;
-  -webkit-box-shadow: 2px 0px 12px -2px rgba(170, 170, 170, 1);
-  -moz-box-shadow: 2px 0px 12px -2px rgba(170, 170, 170, 1);
-  box-shadow: 2px 0px 12px -2px rgba(170, 170, 170, 1);
+  -webkit-box-shadow: 0px 2px 9px #64646424 !important;
+  -moz-box-shadow: 0px 2px 9px #64646424 !important;
+  box-shadow: 0px 2px 9px #64646424 !important;
 }
 
 .text_area {
   box-shadow: none !important;
   outline: 0px !important;
-  /* border: 1px solid #aaaaaa; */
+  /* border: 0.25px solid #aaaaaa; */
+  -webkit-box-shadow: 0px 2px 9px #64646424 !important;
+  -moz-box-shadow: 0px 2px 9px #64646424 !important;
+  box-shadow: 0px 2px 9px #64646424 !important;
 }
 
 /* .form_body {
