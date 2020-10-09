@@ -28,21 +28,21 @@
                 <div class="collapse navbar-collapse " id="mynav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#features">Features </a>
+                            <a class="nav-link scroll-link" href="#features" data-id="features">Features </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#how_do">How we do</a>
+                            <a class="nav-link scroll-link" href="#how_do" data-id="how_do">How we do</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#price">Pricing</a>
+                            <a class="nav-link scroll-link" href="#price" data-id="price">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us</a>
+                            <a class="nav-link scroll-link" href="#contact" data-id="contact">Contact Us</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link hire_btn" href="#">Login</a>
+                            <a class="nav-link hire_btn" href="#" >Login</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link sign_up_btn" href="#">Sign up</a>
@@ -650,7 +650,30 @@
             </div>
         </div>
     </section>
+    <script type="text/javascript">
+  
+            // navigation click actions	
+            $(".nav-item ").on('click',function(){
+                $("html,body").animate({
+                    scrollTop:$($.attr(this, 'href')).offset().top
+                },1500);
+            });
 
+            if(window.location.hash){
+                scroll(0,0);
+                setTimeout(function(){
+                    scroll(0,0);
+                },1);
+            }
+            if(window.location.hash){
+                $("html,body").animate({
+                   scrollTop : $(window.location.hash).offset().top + 'px'
+                },1500);
+            }
+
+  
+
+        </script>
 
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -663,6 +686,7 @@
     <!-- <script>
         $('#fullpage').fullpage();
     </script> -->
+   
 </body>
 
 </html>
