@@ -169,7 +169,7 @@ a {
 /* =========== banner part css start ============= */
 .banner {
   position: relative;
-  height: 100vh;
+  height: 95vh;
   width: 100%;
   background-color: #2b56f5;
   overflow: hidden;
@@ -387,6 +387,7 @@ a {
   left: 0;
   height: 50%;
   width: 100%;
+
   border-left: 4px dashed #2b56f5;
   border-bottom: 4px dashed #2b56f5;
 }
@@ -397,6 +398,7 @@ a {
   right: 0;
   height: 50%;
   width: 50%;
+
   border-right: 4px dashed #2b56f5;
 }
 

@@ -1,3 +1,17 @@
+
+$(document).ready(function () {
+  $.scrollify({
+    section: '.scrollyfy_section',
+  });
+// hide nav
+
+});
+
+$('.hide_nav').on('click', function () {
+  window.$('.navbar-collapse').collapse('hide');
+  console.log('test');
+});
+
 window.onscroll = function () {
   myFunction();
 };
