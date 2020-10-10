@@ -116,7 +116,7 @@ a {
 /* .sticky #mynav ul li a:hover {
   color: #00ddab !important;
 } */
-.navbar-toggler {
+/* .navbar-toggler {
   padding: 5px;
   border: 2px solid #fff !important;
 }
@@ -125,13 +125,14 @@ a {
 }
 .sticky .navbar-toggler .bar {
   color: #fff !important;
-}
+} */
 .custom_nav {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 999;
+  background-color: #2b56f5;
 }
 
 .navbar-brand img {
@@ -160,6 +161,9 @@ a {
 
 .navbar-toggler-icon {
   color: #fff !important;
+  margin-top: 0px !important;
+  height: 30px !important;
+  line-height: 36px !important;
 }
 
 /* =========== banner part css start ============= */
@@ -176,7 +180,7 @@ a {
   overflow: hidden;
   width: 100%;
   /* height: 100%; */
-  top: 55%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
