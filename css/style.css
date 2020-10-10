@@ -90,6 +90,42 @@ a {
   transition: all 0.5s linear;
 } */
 /* =================== nav part css strat ======= */
+.custom_nav.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  /* padding: 15px 0px; */
+  padding-bottom: 6px;
+  width: 100%;
+  transition: all 0.5s linear;
+  background-color: #2b56f5 !important;
+}
+.custom_nav.sticky .navbar a {
+  color: #fff !important;
+}
+.custom_nav.sticky #mynav ul li a {
+  color: #fff !important;
+  transition: all 0.3s linear;
+  /* height: 37px !important;
+  line-height: 37px !important; */
+}
+.custom_nav.sticky #mynav ul li {
+  height: 30px !important;
+  line-height: 30px !important;
+}
+/* .sticky #mynav ul li a:hover {
+  color: #00ddab !important;
+} */
+.navbar-toggler {
+  padding: 5px;
+  border: 2px solid #fff !important;
+}
+.navbar-toggler .bar {
+  color: #fff !important;
+}
+.sticky .navbar-toggler .bar {
+  color: #fff !important;
+}
 .custom_nav {
   position: absolute;
   top: 0;
