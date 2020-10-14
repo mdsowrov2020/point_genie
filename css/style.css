@@ -8,12 +8,13 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  position: relative;
 }
 
-#fullpage {
+/* #fullpage {
   height: 100vh;
   overflow: hidden;
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -158,12 +159,11 @@ a {
   border: 1px solid #fff !important;
   border-radius: 2px !important;
 }
-
 .navbar-toggler-icon {
   color: #fff !important;
   margin-top: 0px !important;
-  height: 30px !important;
-  line-height: 36px !important;
+  height: 16px !important;
+  line-height: 10px !important;
 }
 
 /* =========== banner part css start ============= */
@@ -219,9 +219,9 @@ a {
 }
 
 /*  ============== vertical part css start ============ */
-.vertical_section {
-  margin-top: 100px;
-}
+/* .vertical_section {
+  padding-top: 100px;
+} */
 
 .vertical_img_main {
   height: 180px;
@@ -264,9 +264,9 @@ a {
 }
 
 /*  ======================= feature part */
-.features_section {
-  margin-top: 100px;
-}
+/* .features_section {
+  padding-top: 100px;
+} */
 
 .feature_body {
   padding: 8px 15px;
@@ -359,9 +359,9 @@ a {
 }
 
 /*  ==================== how we dom part start ============= */
-.how_do_section {
+/* .how_do_section {
   margin-top: 100px;
-}
+} */
 
 .how_we_left p {
   font-size: 18px;
@@ -414,9 +414,9 @@ a {
 }
 
 /* ======================= choose part start ================ */
-.choose_section {
+/* .choose_section {
   margin-top: 100px;
-}
+} */
 
 .choose_body {
   padding: 60px 15px;
@@ -482,9 +482,9 @@ a {
   top: 24% !important;
 } */
 /* ======================= subs part start ==================== */
-.subscribe_section {
+/* .subscribe_section {
   margin-top: 100px;
-}
+} */
 
 .subs_body {
   border-radius: 20px;
@@ -546,9 +546,9 @@ a {
 }
 
 /*  =================== prize part start =============== */
-.price_section {
+/* .price_section {
   margin-top: 100px;
-}
+} */
 
 .price_card_body {
   border-radius: 20px;
@@ -694,9 +694,9 @@ a {
 }
 
 /*  ======================= contact part start ================ */
-.contact_section {
+/* .contact_section {
   margin-top: 100px;
-}
+} */
 
 .conatct_input {
   box-shadow: none !important;
@@ -838,5 +838,9 @@ a {
 
 /* ========================================= */
 .custom_row {
-  margin-top: 100px;
+  padding-top: 100px;
+}
+
+.scrollyfy_section {
+  padding-top: 100px;
 }

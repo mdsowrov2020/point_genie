@@ -28,4 +28,9 @@ function myFunction() {
     navbar.classList.remove('sticky');
   }
 }
+
+$('body').scrollspy({target: ".navbar"})
+
+
+
   
