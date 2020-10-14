@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   outline: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 35px; /* height of sticky header */
 }
 
 body {
@@ -14,11 +16,6 @@ body {
   height: 100vh;
   overflow: hidden;
 } */
-
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 35px; /* height of sticky header */
-}
 
 a {
   text-decoration: none !important;
@@ -128,7 +125,7 @@ a {
   color: #fff !important;
 } */
 .custom_nav {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -174,7 +171,7 @@ a {
 /* =========== banner part css start ============= */
 .banner {
   position: relative;
-  height: 95vh;
+  height: 100vh;
   width: 100%;
   background-color: #2b56f5;
   overflow: hidden;
