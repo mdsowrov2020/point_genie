@@ -1,11 +1,11 @@
 
-$(document).ready(function () {
-  $.scrollify({
-    section: '.scrollyfy_section',
-  });
-// hide nav
+// $(document).ready(function () {
+//   $.scrollify({
+//     section: '.scrollyfy_section',
+//   });
 
-});
+
+// });
 
 $('.hide_nav').on('click', function () {
   window.$('.navbar-collapse').collapse('hide');
@@ -29,7 +29,7 @@ function myFunction() {
   }
 }
 
-$('body').scrollspy({target: ".navbar"})
+
 
 
 

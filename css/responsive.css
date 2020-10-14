@@ -1,6 +1,7 @@
 @media (max-width: 575px) {
   html {
     scroll-behavior: unset !important;
+    scroll-padding-top: 20px; /* height of sticky header */
   }
   p {
     font-size: 12px !important;
@@ -142,17 +143,17 @@
     font-size: 11px;
   }
 
-  /* .vertical_section {
-    margin-top: 50px;
-  } */
-
-  .custom_row {
-    padding-top: 20px;
+  .vertical_section {
+    padding-top: 50px;
   }
 
-  /* .features_section {
-    margin-top: 50px;
-  } */
+  .custom_row {
+    padding-top: 30px;
+  }
+
+  .features_section {
+    padding-top: 50px;
+  }
 
   .feature_body {
     padding: 8px 15px;
@@ -203,13 +204,13 @@
     margin-top: 35px;
   }
 
-  /* .how_do_section {
-    margin-top: 50px;
-  } */
+  .how_do_section {
+    padding-top: 50px;
+  }
 
-  /* .choose_section {
-    margin-top: 50px;
-  } */
+  .choose_section {
+    padding-top: 50px;
+  }
 
   .choose_body {
     padding: 60px 15px;
@@ -248,9 +249,9 @@
     outline: 0px !important;
   }
 
-  /* .price_section {
-    margin-top: 50px;
-  } */
+  .price_section {
+    padding-top: 50px;
+  }
 
   .price_card_body {
     border-radius: 20px;
@@ -270,7 +271,6 @@
     background-size: cover !important;
     overflow: hidden;
     padding: 50px 0px;
-    margin-top: 50px;
   }
 
   .submit_btn {
@@ -289,7 +289,7 @@
     -moz-box-shadow: 0px 18px 30px #365be26b !important;
     box-shadow: 0px 18px 30px #365be26b !important;
   }
-  .scrollyfy_section {
+  /* .scrollyfy_section {
     padding-top: 50px;
-  }
+  } */
 }
