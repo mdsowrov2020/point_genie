@@ -1,7 +1,7 @@
 @media (max-width: 575px) {
   * {
     scroll-behavior: unset !important;
-    scroll-padding-top: 20px; /* height of sticky header */
+    scroll-padding-top: 30px; /* height of sticky header */
   }
   p {
     font-size: 12px !important;
