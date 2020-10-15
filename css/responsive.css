@@ -12,8 +12,8 @@
     padding: 0px;
   }
   .navbar-brand img {
-    height: 25px;
-    width: 181px;
+    height: 100% !important;
+    width: 100% !important;
   }
 
   #mynav ul {
