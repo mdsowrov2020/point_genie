@@ -29,6 +29,20 @@ function myFunction() {
   }
 }
 
+$('.special_slider').slick({
+  dots: false,
+  infinite: true,
+  speed: 500,
+  // prevArrow:
+  //   '<span class="prev_arrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>',
+  nextArrow:
+    '<span class="next_arrow"> <img src="./images/Path 4022.svg" alt="images"></span>',
+  fade: true,
+  autoplay: true,
+  autoplaySpeed:2000,
+  cssEase: 'linear',
+});
+
 
 
 

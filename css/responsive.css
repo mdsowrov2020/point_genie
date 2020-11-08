@@ -292,4 +292,98 @@
   /* .scrollyfy_section {
     padding-top: 50px;
   } */
+  .special_part_body {
+    width: 100%;
+  }
+  .shakin_img_title h5 {
+    font-size: 20px;
+    color: #fff;
+    line-height: 39px;
+  }
+  .shakin_banner_img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+  }
+  .shakin_banner_rating ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 1px;
+  }
+  .special p span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+  }
+  .crowd p span:nth-child(3) {
+    display: inline-block;
+    width: 6px;
+    height: 16px;
+  }
+  .crowd p span:nth-child(2) {
+    display: inline-block;
+    width: 6px;
+    height: 13px;
+  }
+  .crowd p span {
+    display: inline-block;
+    width: 6px;
+    height: 7px;
+  }
+  .call_contact_part ul li a {
+    font-size: 14px;
+    display: block;
+    color: #2b56f5;
+  }
+  .call_contact_part ul li {
+    display: inline-block;
+    width: 71px;
+    height: 38px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #2b56f533;
+    text-align: center;
+    line-height: 38px;
+    outline: 0px !important;
+    border: none !important;
+    margin: 5px 4px;
+    color: #2b56f5;
+    background-color: #ffffff;
+  }
+  .call_contact_part ul li:last-child a {
+    font-size: 11px;
+    padding: 2px;
+    line-height: 12px;
+  }
+  .menu_btn button {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #2b56f5;
+    color: #fff;
+    text-align: center;
+    border: none !important;
+    outline: none !important;
+    height: 55px;
+    line-height: 55px;
+    font-size: 16px;
+    box-shadow: 0px 0px 30px #929292c4;
+  }
+  .special_btn button {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #2b56f5;
+    text-align: center;
+    border: 1px solid #2b56f5;
+    outline: none !important;
+    height: 55px;
+    line-height: 55px;
+    font-size: 16px;
+  }
+  .popup_box {
+    width: 100%;
+  }
 }
